@@ -3,7 +3,7 @@ app = Flask("toplay")
 import random
 
 choices=['Hilary','Trump','Jill','Gary']
-
+# hihihihi
 @app.route('/')
 def is_nuts():
     return "{} is nuts!".format(random.choice(choices))
